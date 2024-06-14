@@ -20,7 +20,6 @@
 .main-title {
   text-align: center;
   font-weight: 500;
-  margin-bottom: var(--medium-mb);
 }
 
 @media screen and (min-width: 700px) {
