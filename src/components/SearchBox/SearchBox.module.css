@@ -7,14 +7,14 @@
     padding: 20px 30px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     border: 1px solid rgba(17, 12, 46, 0.15);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .inputLabel {
     display: block;
     font-size: 42px;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: center;
 }
 
