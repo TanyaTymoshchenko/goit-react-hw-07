@@ -1,22 +1,30 @@
 .filter-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    margin-left: 3.5rem;
-    margin-top: 2rem;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 90%;
+    max-width: 450px;
+    background-color: #d4efda;
+    padding: 20px 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 1px solid rgba(17, 12, 46, 0.15);
+    border-radius: 10px;
+}
 
+.inputLabel {
+    display: block;
+    font-size: 42px;
+    color: black;
+    margin-bottom: 10px;
+    display: center;
 }
 
 .filter-input {
-    width: 250px;
-    display: flex;
-    padding: 5px;
-    border-radius: 3px;
-    border: 1px solid black;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 1.5rem;
+    width: 100%;
+    padding: 10px;
+    outline: 1px solid transparent;
+    border-radius: 4px;
+    border: 1px solid #888;
+    font-size: 15px;
 }
 
 .filter-input:hover,

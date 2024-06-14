@@ -39,7 +39,7 @@ export default function ContactForm() {
       <Form className={css.form}>
         <div className={css["inputs-container"]}>
           <div className={css["form-input-box"]}>
-            <label htmlFor={nameId}>Name</label>
+            <label htmlFor={nameId}>Name*</label>
             <Field className={css.input} id={nameId} name="name" />
             <ErrorMessage
               className={css["error-message"]}
@@ -48,7 +48,7 @@ export default function ContactForm() {
             />
           </div>
           <div className={css["form-input-box"]}>
-            <label htmlFor={numberId}>Number</label>
+            <label htmlFor={numberId}>Number*</label>
             <Field className={css.input} id={numberId} name="number" />
             <ErrorMessage
               className={css["error-message"]}

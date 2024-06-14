@@ -9,7 +9,6 @@ export default function Contact({ contactData: { name, number, id } }) {
   const handleDeleteContact = () => {
     dispatch(deleteContact(id));
   };
-
   return (
     <li className={css["contact-item"]}>
       <div className={css["contact-info-wrapper"]}>
